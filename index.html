@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Tu factura de luz te está robando a escondidas?</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #4caf50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #4caf50;
+            text-align: center;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            margin: 10px 0;
+            padding-left: 20px;
+            position: relative;
+        }
+        ul li:before {
+            content: "\2714";
+            color: #4caf50;
+            position: absolute;
+            left: 0;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        input, button {
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        button {
+            background-color: #4caf50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        .social-proof {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #666;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>¿Tu factura de luz te está robando a escondidas?</h1>
+    </header>
+
+    <section>
+        <p>A nadie le gusta pagar de más, pero eso es justo lo que haces cada mes si no has revisado tus tarifas. Vamos a arreglarlo.</p>
+
+        <ul>
+            <li>Descubre cuánto puedes ahorrar con un análisis gratuito.</li>
+            <li>Nada de papeleos ni líos: nosotros nos encargamos de todo.</li>
+            <li>Empieza a ahorrar en tu próxima factura.</li>
+        </ul>
+
+        <p>¿Cuánto estás regalando este mes a tu compañía eléctrica? <br>
+        Sí, lo he dicho bien: regalando. Porque la mayoría de las tarifas actuales son un despropósito.</p>
+
+        <p>Pero, tranquilo, no tienes que ser un experto para dejar de tirar el dinero. Eso lo hago yo por ti.</p>
+
+        <p>Solo necesito una cosa: tu última factura. <br>
+        Con eso te diré exactamente cuánto podrías ahorrar cada mes. Sin tecnicismos, sin compromiso y sin preguntas incómodas.</p>
+
+        <p>¿Te suena bien? Entonces, deja tu email aquí y prepárate para empezar a ahorrar. Porque tu dinero debería quedarse contigo, no en sus cuentas bancarias.</p>
+
+        <form>
+            <input type="text" name="name" placeholder="Tu nombre" required>
+            <input type="email" name="email" placeholder="Tu email" required>
+            <input type="file" name="factura" accept=".pdf,.jpg,.png">
+            <button type="submit">¡Quiero saber cuánto puedo ahorrar ya!</button>
+        </form>
+
+        <div class="social-proof">
+            <p>Ya hemos ayudado a más de 1.200 hogares a ahorrar hasta 600 € al año. <br>
+            ¿Quieres ser el próximo?</p>
+        </div>
+    </section>
+</body>
+</html>
